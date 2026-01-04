@@ -1,10 +1,14 @@
 @charset "UTF-8";
 
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Passion+One:wght@400;700;900&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
+
 
 :root{
     --fundo-topo: rgba(17, 0, 253, 0.884);
@@ -35,22 +39,23 @@ header > div#topo-container{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between; 
+    align-items: center;
     color: var(--texto-alternativo);
+  
 }
 
 
 img{
-    width: 115px;
+    width: 135px;
 }
 
 header div#menu{
     position: absolute;
-    width: 170px;
     top: 0px;
     right: 0px;
+    align-self: flex-end;
+    
 
-    
-    
     
 }
 
@@ -62,17 +67,17 @@ header div#navegacao {
     color: var(--texto-principal);
     padding: 10px;
     background-color: var(--fundo-principal);
+   
     
 }
 
 
 
 header div#openmenu{
-    display: block;
     cursor: pointer;
     text-align: right;
-    padding: 30px;
-    
+    font-size: 1.5em;
+    padding: 20px;
     
     
 }
@@ -82,7 +87,7 @@ header div#closemenu{
     cursor: pointer;
     padding: 10px;
     text-align: left;
-    color: var(--fundo-topo);
+    color: rgb(1, 3, 97);
     font-weight: bold;
 }
 
@@ -115,7 +120,7 @@ header div#navegacao li a{
 
 header div#info > h1{
     padding: 20px;
-    padding-top: 100px;
+    padding-top: 70px;
     font-size: 2em;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.418);
     color: var(--texto-alternativo);
@@ -185,12 +190,17 @@ aside h1{
 
 footer{
     background-color: rgba(194, 194, 194, 0.705);  
-    height: 230px; 
+    height: 100%; 
     color: rgb(48, 48, 48);
     text-align: center;
+    font-size: 1em;
     
 }
 
+footer h1{
+    padding-bottom: 10px;
+    font-size: 1.3em;
+}
 footer p{
     padding-bottom: 10px;
     padding-top: 10px;
@@ -201,11 +211,12 @@ footer  div#redes a{
     text-decoration: none;
     transition: color 0.5s;
     padding: 0px 2px;
+ 
     
 }
 
 footer div#redes{
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 footer div#redes a:hover{
