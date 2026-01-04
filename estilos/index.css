@@ -62,7 +62,8 @@ header div#menu{
 header div#navegacao {
     display:none;
     background-color: var(--fundo-principal);
-    width: 100%;
+    font-size: 1.1em;
+    width: 50vw;
     height: 100vh;
     color: var(--texto-principal);
     padding: 10px;
