@@ -69,7 +69,7 @@ header div#navegacao {
     color: var(--texto-principal);
     padding: 10px;
     background-color: var(--fundo-principal);
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.568);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.61);
     ;
    
     
@@ -105,6 +105,7 @@ header ul{
 
 header ul > li{
     padding: 5px;
+    padding-top: 10px;
     
 }
 
@@ -114,6 +115,7 @@ header div#navegacao li a{
     text-decoration: none;
     color: var(--fundo-topo);
     font-weight:460;
+    
   
 
 }
@@ -147,33 +149,35 @@ header div#info > h1{
 main{
 
     background-color: var(--texto-alternativo);
-
-    
-
 }
 
 section{
-    padding: 10px;
+    padding: 20px;
     line-height: 2em;
-
+    
 }
 
-section#cursos{
+section#sobre{
     text-align: center;
-    padding-top: 40px;
 }
 
-section > h1#trans{
-    padding-left: 10px;
+section h1{
     color: var(--texto-principal);
+    padding: 20px 0px;
 }
 
 section p{
-    padding: 10px;
+    padding: 10px 5px;
 }
 
-section h1 span{
+section span{
     color: var(--fundo-topo);
+}
+
+section img{
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;          
 }
 
 
