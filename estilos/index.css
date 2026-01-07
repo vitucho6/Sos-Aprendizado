@@ -54,7 +54,8 @@ header div#menu{
     top: 0px;
     right: 0px;
     align-self: flex-end;
-   
+
+
     
 
     
@@ -198,7 +199,7 @@ section img{
 }
 
 div.slides h1{
-    font-size: 1.7em;
+    font-size: 1.5em;
     text-align: left;
 }
 
