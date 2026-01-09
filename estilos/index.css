@@ -31,7 +31,7 @@ header{
     background-color: var(--fundo-topo);
     background-image: url("../imagens/gui-cores.PNG");
     background-repeat: no-repeat;
-    background-size: 295px 560px;
+    background-size: 110% 110%;
     background-position: bottom right;
     height: 500px;
 }
@@ -72,7 +72,7 @@ header div#navegacao {
     padding: 10px;
     background-color: var(--fundo-principal);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.61);
-    ;
+
    
     
 }
